@@ -1,0 +1,105 @@
+{
+  "doxdocgen.file.copyrightTag": [
+    "@copyright Copyright (c) {year}  c"
+  ],
+  "doxdocgen.file.customTag": [
+    "@par Changelogs:",
+    "<table>",
+    "<tr><th>Date       <th>Version <th>Author  <th>Description",
+    "<tr><td>{date} <td>1.0     <td>{author}     <td>log",
+    "</table>"
+  ],
+  "doxdocgen.file.fileOrder": [
+    "file",
+    "brief",
+    "author",
+    "version",
+    "date",
+    "empty",
+    "copyright",
+    "empty",
+    "custom"
+  ],
+  "doxdocgen.file.fileTemplate": "@file {name}",
+  "doxdocgen.file.versionTag": "@version 1.0",
+  "doxdocgen.generic.authorEmail": "carithers@163.com",
+  "doxdocgen.generic.authorName": "c",
+  "doxdocgen.generic.authorTag": "@author {author} ({email})",
+  "doxdocgen.generic.order": [
+    "brief",
+    "tparam",
+    "param",
+    "return"
+  ],
+  "doxdocgen.generic.paramTemplate": "@param{indent:8}{param}{indent:25}My Param doc",
+  "doxdocgen.generic.returnTemplate": "@return {type} ",
+  "doxdocgen.generic.splitCasingSmartText": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimInitVimPaths.win32": "~\\AppData\\Local\\nvim\\init.lua",
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "vscode-neovim.ctrlKeysForInsertMode": [
+    "a",
+    "c",
+    "d",
+    "h",
+    "j",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "w",
+    "["
+  ],
+  "vscode-neovim.ctrlKeysForNormalMode": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "/",
+    "]",
+    "right",
+    "left",
+    "up",
+    "down",
+    "backspace",
+    "delete",
+    "["
+  ],
+  "workbench.colorTheme": "Atom One Dark",
+  "EIDE.ARM.GCC.InstallDirectory": "~/.eide/tools/gcc_arm",
+  "fileTemplates.author": "gaoxing <xing.gao@bafang.com>",
+  "EIDE.JLink.InstallDirectory": "${userRoot}/.eide/tools/jlink",
+  "EIDE.OpenOCD.ExePath": "~/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
+  "cortex-debug.liveWatchRefreshRate": 500,
+  "cortex-debug.armToolchainPath": "${userHome}/.eide/tools/gcc_arm/bin",
+  "cortex-debug.armToolchainPath.windows": "${userHome}/.eide/tools/gcc_arm/bin",
+  "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+  "cortex-debug.JLinkGDBServerPath": "${userHome}/.eide/tools/jlink/JLinkGDBServerCL.exe",
+  "cortex-debug.gdbPath": "${userHome}/.eide/tools/gcc_arm/bin/arm-none-eabi-gdb.exe",
+  "cortex-debug.openocdPath": "${userHome}/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
+  "fileTemplates.templates_dir": "E:\\bf\\2. boot\\ECU_ARYV_BootLoader_TEST\\boot2\\TemplateFiles"
+}

@@ -43,20 +43,6 @@
       "command": "vscode-neovim.escape"
     }
   },
-  "vscode-neovim.ctrlKeysForInsertMode": [
-    "a",
-    "c",
-    "d",
-    "h",
-    "j",
-    "m",
-    "o",
-    "r",
-    "t",
-    "u",
-    "w",
-    "["
-  ],
   "vscode-neovim.ctrlKeysForNormalMode": [
     "a",
     "b",
@@ -78,7 +64,6 @@
     "w",
     "x",
     "y",
-    "z",
     "/",
     "]",
     "right",
@@ -86,12 +71,10 @@
     "up",
     "down",
     "backspace",
-    "delete",
-    "["
+    "delete"
   ],
   "workbench.colorTheme": "Atom One Dark",
   "EIDE.ARM.GCC.InstallDirectory": "~/.eide/tools/gcc_arm",
-  "fileTemplates.author": "gaoxing <xing.gao@bafang.com>",
   "EIDE.JLink.InstallDirectory": "${userRoot}/.eide/tools/jlink",
   "EIDE.OpenOCD.ExePath": "~/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
   "cortex-debug.liveWatchRefreshRate": 500,
@@ -101,5 +84,4 @@
   "cortex-debug.JLinkGDBServerPath": "${userHome}/.eide/tools/jlink/JLinkGDBServerCL.exe",
   "cortex-debug.gdbPath": "${userHome}/.eide/tools/gcc_arm/bin/arm-none-eabi-gdb.exe",
   "cortex-debug.openocdPath": "${userHome}/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
-  "fileTemplates.templates_dir": "E:\\bf\\2. boot\\ECU_ARYV_BootLoader_TEST\\boot2\\TemplateFiles"
 }

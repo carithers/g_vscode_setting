@@ -315,11 +315,6 @@
     },
     {
         "key": "ctrl+oem_4",
-        "command": "list.clear",
-        "when": "listFocus && listHasSelectionOrFocus && !inputFocus && !treestickyScrollFocused"
-    },
-    {
-        "key": "ctrl+oem_4",
         "command": "list.closeFind",
         "when": "listFocus && treeFindOpen"
     },

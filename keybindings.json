@@ -5,18 +5,27 @@
         "command": "-workbench.action.focusFirstEditorGroup"
     },
     {
-        "key": "ctrl+2",
-        "command": "-workbench.action.focusSecondEditorGroup"
-    },
-    {
         "key": "ctrl+1",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus"
     },
     {
         "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+2",
         "command": "workbench.action.navigateBack",
         "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
     },
     {
         "key": "ctrl+oem_4",
@@ -392,5 +401,5 @@
         "key": "ctrl+oem_4",
         "command": "workbench.statusBar.clearFocus",
         "when": "statusBarFocused"
-    }
+    },
 ]

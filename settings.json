@@ -9,22 +9,24 @@
     "<tr><td>{date} <td>1.0     <td>{author}     <td>log",
     "</table>"
   ],
+  // 文件注释的组成及其排序
   "doxdocgen.file.fileOrder": [
-    "file",
-    "brief",
-    "author",
-    "version",
-    "date",
-    "empty",
-    "copyright",
-    "empty",
-    "custom"
+      "file",		// @file
+      "brief",	// @brief 简介
+      "author",	// 作者
+      "version",	// 版本
+      "date",		// 日期
+      "empty",	// 空行
+      "copyright",// 版权
+      "empty",
+      "custom"	// 自定义
   ],
   "doxdocgen.file.fileTemplate": "@file {name}",
   "doxdocgen.file.versionTag": "@version 1.0",
   "doxdocgen.generic.authorEmail": "carithers@163.com",
   "doxdocgen.generic.authorName": "c",
   "doxdocgen.generic.authorTag": "@author {author} ({email})",
+  // 根据自动生成的注释模板（目前主要体现在函数注释上）
   "doxdocgen.generic.order": [
     "brief",
     "tparam",

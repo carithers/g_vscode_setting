@@ -10,24 +10,22 @@
     "<tr><td>{date} <td>1.0     <td>{author}     <td>log",
     "</table>"
   ],
-  // 文件注释的组成及其排序
   "doxdocgen.file.fileOrder": [
-      "file",		// @file
-      "brief",	// @brief 简介
-      "author",	// 作者
-      "version",	// 版本
-      "date",		// 日期
-      "empty",	// 空行
-      "copyright",// 版权
-      "empty",
-      "custom"	// 自定义
+    "file",
+    "brief",
+    "author",
+    "version",
+    "date",
+    "empty",
+    "copyright",
+    "empty",
+    "custom"
   ],
   "doxdocgen.file.fileTemplate": "@file {name}",
   "doxdocgen.file.versionTag": "@version 1.0",
   "doxdocgen.generic.authorEmail": "carithers@163.com",
   "doxdocgen.generic.authorName": "c",
   "doxdocgen.generic.authorTag": "@author {author} ({email})",
-  // 根据自动生成的注释模板（目前主要体现在函数注释上）
   "doxdocgen.generic.order": [
     "brief",
     "tparam",
@@ -47,8 +45,10 @@
     },
     ";;": {
       "command": "vscode-neovim.send",
-      "args": ["<esc>A;"]
-    },
+      "args": [
+        "<esc>A;"
+      ]
+    }
   },
   "vscode-neovim.ctrlKeysForNormalMode": [
     "a",
@@ -80,14 +80,16 @@
     "delete"
   ],
   "workbench.colorTheme": "Atom One Dark",
-  "EIDE.ARM.GCC.InstallDirectory": "~/.eide/tools/gcc_arm",
+  "EIDE.ARM.GCC.InstallDirectory": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1",
   "EIDE.JLink.InstallDirectory": "${userRoot}/.eide/tools/jlink",
   "EIDE.OpenOCD.ExePath": "~/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
   "cortex-debug.liveWatchRefreshRate": 500,
-  "cortex-debug.armToolchainPath": "${userHome}/.eide/tools/gcc_arm/bin",
-  "cortex-debug.armToolchainPath.windows": "${userHome}/.eide/tools/gcc_arm/bin",
+  "cortex-debug.armToolchainPath": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin",
+  "cortex-debug.armToolchainPath.windows": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin",
   "cortex-debug.armToolchainPrefix": "arm-none-eabi",
   "cortex-debug.JLinkGDBServerPath": "${userHome}/.eide/tools/jlink/JLinkGDBServerCL.exe",
-  "cortex-debug.gdbPath": "${userHome}/.eide/tools/gcc_arm/bin/arm-none-eabi-gdb.exe",
+  "cortex-debug.gdbPath": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-gdb.exe",
   "cortex-debug.openocdPath": "${userHome}/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
+  "fileTemplates.templates_dir": "E:\\bf\\2. boot\\ECU_ARYV_BootLoader_TEST\\boot1\\TemplateFiles",
+  "fileTemplates.author": "gaoxing <xing.gao@bafang.com>",
 }

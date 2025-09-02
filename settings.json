@@ -46,7 +46,13 @@
     ";;": {
       "command": "vscode-neovim.send",
       "args": [
-        "<esc>A;"
+        "<esc>A;<esc>"
+      ]
+    },
+    ";j": {
+      "command": "vscode-neovim.send",
+      "args": [
+        ";<esc>"
       ]
     }
   },
@@ -80,7 +86,7 @@
     "delete"
   ],
   "workbench.colorTheme": "Atom One Dark",
-  "EIDE.ARM.GCC.InstallDirectory": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1",
+  "EIDE.ARM.GCC.InstallDirectory": "",
   "EIDE.JLink.InstallDirectory": "${userRoot}/.eide/tools/jlink",
   "EIDE.OpenOCD.ExePath": "~/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
   "cortex-debug.liveWatchRefreshRate": 500,
@@ -90,6 +96,13 @@
   "cortex-debug.JLinkGDBServerPath": "${userHome}/.eide/tools/jlink/JLinkGDBServerCL.exe",
   "cortex-debug.gdbPath": "${userHome}/.eide/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-gdb.exe",
   "cortex-debug.openocdPath": "${userHome}/.eide/tools/openocd_7a1adfbec_mingw32/bin/openocd.exe",
-  "fileTemplates.templates_dir": "E:\\bf\\2. boot\\ECU_ARYV_BootLoader_TEST\\boot1\\TemplateFiles",
-  "fileTemplates.author": "gaoxing <xing.gao@bafang.com>",
+  "fileTemplates.templates_dir": "E:\\bf\\2. boot\\ECU_ARYV_BootLoader_TEST\\boot2\\TemplateFiles",
+  "fileTemplates.author": "gaoxing <xing.gao@bafang-e.com>",
+  "update.showReleaseNotes": false,
+  "update.mode": "none",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.bin": "default"
+  },
+  "powershell.promptToUpdatePowerShell": false
 }

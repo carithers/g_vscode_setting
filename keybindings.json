@@ -402,4 +402,9 @@
         "command": "workbench.statusBar.clearFocus",
         "when": "statusBarFocused"
     },
+    {
+        "key": "ctrl+oem_1 ctrl+k",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
 ]
